@@ -9,10 +9,11 @@ tags: []
 ---
 
 ```{r}
-  data(diamonds, economics_long, mpg, package = "ggplot2")
-  library(dplyr)
-  library(highcharter)
-hchart(mpg, "scatter", hcaes(x = displ, y = hwy, group = class))
-
+library(magrittr)
+library(highcharter)
+highchart() %>% 
+  hc_title(text = "Scatter chart with size and color") %>% 
+  hc_add_series_scatter(mtcars$wt, mtcars$mpg,
+                        mtcars$drat, mtcars$hp)
 ```
 
