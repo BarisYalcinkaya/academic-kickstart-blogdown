@@ -15,4 +15,6 @@ highchart() %>%
   hc_title(text = "Scatter chart with size and color") %>% 
   hc_add_series_scatter(mtcars$wt, mtcars$mpg,
                         mtcars$drat, mtcars$hp)
+  widgetframe::frameWidget()
+
 ```
