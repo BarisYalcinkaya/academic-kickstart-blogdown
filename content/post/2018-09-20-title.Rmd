@@ -8,7 +8,11 @@ categories:
 tags: []
 ---
 
-data(diamonds, economics_long, mpg, package = "ggplot2")
-library(dplyr)
-
+```{r}
+  data(diamonds, economics_long, mpg, package = "ggplot2")
+  library(dplyr)
+  library(highcharter)
 hchart(mpg, "scatter", hcaes(x = displ, y = hwy, group = class))
+
+```
+
