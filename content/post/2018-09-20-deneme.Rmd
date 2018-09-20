@@ -1,10 +1,10 @@
 ---
-title: Title
+title: 'Deneme '
 author: Baris Yalcinkaya
 date: '2018-09-20'
-slug: title
+slug: deneme
 categories:
-  - Post
+  - Graph
 tags: []
 ---
 
@@ -16,4 +16,3 @@ highchart() %>%
   hc_add_series_scatter(mtcars$wt, mtcars$mpg,
                         mtcars$drat, mtcars$hp)
 ```
-
