@@ -1,0 +1,25 @@
+---
+title: Kripto Analiz
+author: Baris Yalcinkaya
+date: '2018-09-20'
+slug: kripto-analiz
+categories:
+  - courses
+tags:
+  - course
+---
+
+Plain text
+**bla bla**
+işte bu da karesi^2^
+
+image: ![](/Users/cpas/Desktop/academic-kickstart-blogdown/static/img/kripto.jpg)
+[Click to Buy](https://www.udemy.com/kripto-para-piyasas-alm-satm-rehberi/?couponCode=KRIPTO_25TR)
+
+* işte bu birincisi
+* bu da ikincisi 
+  + daha daha
+  + daha da 
+
+1. ordered list örneği
+2. sıkıcısın
