@@ -1,0 +1,14 @@
+---
+title: Title
+author: Baris Yalcinkaya
+date: '2018-09-20'
+slug: title
+categories:
+  - Post
+tags: []
+---
+
+data(diamonds, economics_long, mpg, package = "ggplot2")
+library(dplyr)
+
+hchart(mpg, "scatter", hcaes(x = displ, y = hwy, group = class))
