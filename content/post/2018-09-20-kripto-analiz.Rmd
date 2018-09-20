@@ -21,5 +21,3 @@ image: ![](/Users/cpas/Desktop/academic-kickstart-blogdown/static/img/kripto.jpg
   + daha daha
   + daha da 
 
-1. ordered list örneği
-2. sıkıcısın
