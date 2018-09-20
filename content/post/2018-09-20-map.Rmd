@@ -13,7 +13,7 @@ tags:
 library(leaflet)
 library(widgetframe)
 ## Loading required package: htmlwidgets
-leaflet() %>% addTiles() %>% setView(0,0,2)
+frameWidget(leaflet() %>% addTiles() %>% setView(0,0,2))
 
 ```
 
